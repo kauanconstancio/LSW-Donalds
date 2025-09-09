@@ -22,6 +22,10 @@ var Direction;
     Direction[Direction["down"] = 2] = "down";
 })(Direction || (Direction = {}));
 const direction = Direction.Up;
+// Type Assertions (pode realizar a mudança de propriedade da variavel)
+const productName = "boné";
+// let itemId = produtcName as string;
+let itemId = productName;
 console.log(direction);
 // teste
 //# sourceMappingURL=index.js.map
